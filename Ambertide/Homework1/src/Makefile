@@ -1,5 +1,5 @@
-all: test.c
-	gcc -DDEBUG test.c
+all: main.c
+	gcc -DDEBUG main.c
 
 clear:
 	rm a.out
